@@ -77,8 +77,4 @@ function findValue($filename, $key) {
   }
 }
 
-$start_time = microtime(true);
 findValue($argv[1], $argv[2]);
-$end_time = microtime(true);
-$execution_time = ($end_time - $start_time);
-echo "execution time: ".$execution_time." sec";
