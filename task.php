@@ -1,10 +1,5 @@
 <?php
 
-/* Запуск функции из командной строки:
- * php -f task.php filename key
- * где filename - имя текстового файла, key - значнение ключа
- */
-
 function findValue($filename, $key) {
 
   try {
